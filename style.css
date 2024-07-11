@@ -1,1 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4E2B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    background-color: #EAC4F8;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.container {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
 
